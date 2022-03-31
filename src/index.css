@@ -1,0 +1,23 @@
+@import 'modern-normalize/modern-normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+    --color-one: #ffffff;
+}
+
+* {
+	font-family: 'Rubik', sans-serif;
+}
+
+body {
+	background: #EFEFBB;
+	background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
+	color: var(--color-one);
+	margin: 0;
+	font-family: rubik;
+}
+
+h1 {
+	text-align: center;
+	font-size: 54px;
+}
